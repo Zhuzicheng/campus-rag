@@ -1,3 +1,4 @@
+import os
 import gradio as gr
 from rag import ask
 
@@ -13,4 +14,4 @@ gr.Interface(
     outputs=gr.Textbox(label="回答"),
     title="校园知识库问答助手",
     description="基于山东理工大学真实规章制度的 RAG 问答（数据：奖学金、学籍、奖励办法、请假销假）"
-).launch()
+).launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7860)))

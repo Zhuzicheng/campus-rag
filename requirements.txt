@@ -1,0 +1,14 @@
+langchain
+langchain-community
+langchain-openai
+langchain-text-splitters
+langchain-core
+chromadb
+gradio
+dashscope
+python-dotenv
+pypdf
+fastapi
+uvicorn
+jieba
+rank-bm25
