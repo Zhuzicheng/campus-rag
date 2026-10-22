@@ -1,3 +1,4 @@
 .env
 __pycache__/
 *.pyc
+resume_v1.md
