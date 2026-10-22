@@ -2,3 +2,4 @@
 __pycache__/
 *.pyc
 resume_v1.md
+.gradio/
